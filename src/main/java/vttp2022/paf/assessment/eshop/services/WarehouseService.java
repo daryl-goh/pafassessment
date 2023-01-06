@@ -1,8 +1,10 @@
 package vttp2022.paf.assessment.eshop.services;
 
+import org.springframework.stereotype.Service;
+
 import vttp2022.paf.assessment.eshop.models.Order;
 import vttp2022.paf.assessment.eshop.models.OrderStatus;
-
+@Service
 public class WarehouseService {
 
 	// You cannot change the method's signature
@@ -10,6 +12,6 @@ public class WarehouseService {
 	public OrderStatus dispatch(Order order) {
 
 		// TODO: Task 4
-
+		return null;
 	}
 }
